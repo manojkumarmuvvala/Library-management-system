@@ -1,0 +1,88 @@
+/* Smooth Fonts and Colors */
+body {
+  font-family: 'Roboto', sans-serif; /* Smooth, modern font */
+}
+
+header {
+  background-color: #4e73df; /* Soft blue background for the header */
+}
+
+.nav-link {
+  color: white; /* White text for nav links */
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: #b3b8d5; /* Soft lavender color on hover */
+}
+
+.mrbt-2 {
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.m {
+  margin: 1rem 0 0 1rem;
+  position: relative;
+  left: 70%;
+}
+
+.action {
+  width: 270px;
+  background-color: #28a745; /* Green background for action buttons */
+  border-radius: 8px; /* Rounded corners for a smooth look */
+}
+
+.table {
+  margin-top: 2rem;
+}
+
+.table-id {
+  padding-left: 2.5rem !important;
+}
+
+.empty-text {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333333; /* Dark gray color for text */
+}
+
+.report {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  list-style: circle;
+  color: #555; /* Slightly lighter gray for report text */
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 600px) {
+  .m {
+    left: 25%;
+  }
+
+  .nav-link {
+    margin: 0;
+  }
+
+  .table-id {
+    padding-left: 10px !important;
+  }
+
+  .action {
+    width: 100px;
+    background-color: #ff7f50; /* Soft coral background for mobile action buttons */
+  }
+
+  .action .btn {
+    margin-bottom: 10px;
+  }
+}
