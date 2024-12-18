@@ -1,6 +1,6 @@
 # Overview
 ## A flask library management system
-### [Deployed on heroku](https://flask-library-management.herokuapp.com/)
+
 
 ![home](/screenshots/Screenshot%20(128).png)
 ## Stacks used
