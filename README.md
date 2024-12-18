@@ -2,7 +2,6 @@
 ## A flask library management system
 
 
-![home](/screenshots/Screenshot%20(128).png)
 ## Stacks used
 
 - HTML
